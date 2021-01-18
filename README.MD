@@ -1,6 +1,6 @@
 # File Tree
 File Tree is a multiplatform Kotlin based software for files and directories viewing.  
-![](gifs/huge_files_and_directories.gif)
+![](gifs/huge_files_and_directories.gif)  
 Main features:
 - FTP servers browsing support (File -> Open FTP address)
   ![](gifs/ftp_server_browsing.gif)
