@@ -6,7 +6,7 @@ Main features:
   ![](gifs/ftp_server_browsing.gif)
 - Text files, images and ZIP/JAR archives content preview
   ![](gifs/text_zip_jpeg_files_preview.gif)
-- File extension filtering
+- File extension filtering  
   ![](gifs/show_hidden_and_extension_filters.gif)
 - Show hidden files
 - Open files
