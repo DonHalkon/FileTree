@@ -1,0 +1,27 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.20'
+}
+
+group 'me.naiden'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.4.2'
+    implementation 'commons-net:commons-net:3.7.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.2"
+    testImplementation "org.mockftpserver:MockFtpServer:2.7.1"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'MainKt'
+    }
+    from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}
