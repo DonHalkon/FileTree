@@ -9,7 +9,7 @@ Main features:
 - File extension filtering  
   ![](gifs/show_hidden_and_extension_filters.gif)
 - Show hidden files
-- Open files
+- Open files  
   ![](gifs/open_directories_and_files.gif)
 
 ## Building File Tree
